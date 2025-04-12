@@ -1,0 +1,53 @@
+@import "tailwindcss";
+@import url("https://db.onlinewebfonts.com/c/2cc96cec0b01c9bea5a33ef2402a348c?family=Filson+Pro");
+/*
+.one {
+  top: 0;
+  background-image: url("./assets/svgs/background.svg");
+  position: relative;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+}
+  */
+  /*
+.section.mod--questions {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  background-image: url(assets/svgs/background.svg);
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}*/
+html,
+body {
+  background-color: #f8efe5;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+
+@keyframes fly {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate(20px, -20px) rotate(10deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
+
+.fly-animation {
+  animation: fly 3s ease-in-out infinite;
+}
+/*-----------------------------Footer-------------------------------------*/
